@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Activity2">
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="tunisia2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/tunisia1"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        app:srcCompat="@drawable/tunisia4"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543"
+        app:srcCompat="@drawable/tunisia3"
+        tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisia3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/tunisia2" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisia4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/tunisia7" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisia5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/tunisia5" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisia0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/tuniisa" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/tunisia1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.902"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/tunisia6" />
+
+    <Button
+        android:id="@+id/Skip"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="previousScreen"
+        android:text="@string/Skip"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+    <Button
+        android:id="@+id/Close"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:background="@color/design_default_color_primary"
+        android:onClick="close"
+        android:text="@string/CLOSE"
+        android:textAlignment="gravity"
+        android:textSize="24sp"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="637dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

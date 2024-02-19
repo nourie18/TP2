@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Camping</string>
+    <string name="textCaption">Places to Visit in Tunisia</string>
+    <string name="buttonCaption">Next</string>
+    <string name="buttonCaptions">Next</string>
+    <string name="skip">SKIP</string>
+    <string name="close">CLOSE</string>
+    <string name="Skip">Skip</string>
+    <string name="tunisie">Tunisie</string>
+    <string name="todo">TODO</string>
+    <string name="tunisia3">tunisia3</string>
+    <string name="tunisia4">tunisia4</string>
+    <string name="tunisia5">tunisia5</string>
+    <string name="tunisia0">tunisia0</string>
+    <string name="tunisia1">tunisia1</string>
+    <string name="Close">close</string>
+    <string name="CLOSE">CLOSE\n</string>
+</resources>
